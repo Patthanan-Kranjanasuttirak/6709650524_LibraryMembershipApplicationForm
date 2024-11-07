@@ -44,13 +44,14 @@ header{
 }
 #faculty{
     font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
 }
 #email{
     height: 20px;
 }
 #Typesofbooks{
     font-size: 17px;
-   
+    font-family: 'Courier New', Courier, monospace;
 }
 #newsletter{
     height: 15px;
