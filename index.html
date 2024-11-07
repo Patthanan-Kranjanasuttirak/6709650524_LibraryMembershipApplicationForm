@@ -5,34 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
-    <title>Library subscription</title>
+    <title>Library Membership </title>
 </head>
 
 <body>
-    <header> Library subscription </header><br><br>
+    <header> Library Membership </header><br><br>
+    <div class="c">
     <div class="info">
-        <label for="namethai"> ชื่อ : </label>
-        <input type="text" id="namethai" name="namethai" size="20" maxlength="20" required>
+        <label for="namethai"> ชื่อ<font style="color:red">* </font>:</label>
+        <input type="text" id="namethai" name="namethai" size="20" placeholder="กรุณากรอกชื่อ" required>
 
-        <label for="lastnamethai"> นามสกุล : </label>
-        <input type="text" id="lastnamethai" name="lastnamethai" size="20" maxlength="20" required><br><br>
+        <label for="lastnamethai"> นามสกุล<font style="color:red">* </font>: </label>
+        <input type="text" id="lastnamethai" name="lastnamethai" size="20"  placeholder="กรุณากรอกนามสกุล"><br><br>
 
-        <label for="name"> Name : </label>
-        <input type="text" id="name" name="name"  size="20" maxlength="20" required>
+        <label for="name"> Name<font style="color:red">* </font>: </label>
+        <input type="text" id="name" name="name"  size="20"  placeholder="please enter your name" required>
 
-        <label for="lastname"> Lastname : </label>
-        <input type="text" id="lastname" name="lastname" size="20" maxlength="20" required><br><br>
+        <label for="lastname"> Lastname<font style="color:red">* </font>: </label>
+        <input type="text" id="lastname" name="lastname" size="20"  placeholder="please enter your lastname" required><br><br>
 
-        <label for="gender"> Gender : </label>
+        <label for="gender"> Gender<font style="color:red">* </font>: </label>
         <input type="radio" id="male" name="gender" value="male">
         <label for="gender"> Male </label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="gender"> Female </label> <br><br>
 
-        <label for="stdid"> Student id : </label>
+        <label for="stdid"> Student id<font style="color:red">* </font>: </label>
         <input type="text" id="stdid" name="stdid" placeholder="please enter your ID" required> <br><br>
 
-        <label for="faculty"> Faculty: </label>
+        <label for="faculty"> Faculty<font style="color:red">* </font>: </label>
         <select name="faculty" id="faculty" required>
             <option value="Faculty of Dentistry">Faculty of Dentistry</option>
             <option value="Faculty of Law">Faculty of Law</option>
@@ -69,14 +70,14 @@
 
         </select><br><br>
 
-        <label for="email"> Email : </label>
+        <label for="email"> Email<font style="color:red">* </font>: </label>
         <input type="email" id="email" name="email" placeholder="please enter your email" required><br><br>
 
-        <label for="Birthday"> Birthday : </label>
+        <label for="Birthday"> Birthday<font style="color:red">* </font>: </label>
         <input type="date" id="Birthday" name="Birthday" required> <br><br>
 
-        <label for="Types of books " required> Types of books : </label>
-        <select name="Types of books" id="Types of books">
+        <label for="Types of books " required> Types of books<font style="color:red">* </font>: </label>
+        <select name="Types of books" id="Typesofbooks">
             <option value="Novels and literature">Novels and literature</option>
             <option value="Science and technology">Science and technology</option>
             <option value="History and culture">History and culture</option>
@@ -85,10 +86,11 @@
             <option value="Health and care">Health and care</option>
             <option value="Religion and Philosophy">Religion and Philosophy</option>
         </select> <br><br>
-        <label for="Receive library news "> Receive library news and information via email: </label>
+        <label for="Receive library news "> Receive library news and information via email<font style="color:red">* </font>: </label>
         <input type="checkbox" id="newsletter" name="newsletter" value="yes" required><br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" id="submit" value="Submit">
     </div>
+</div>
 </body>
 
 </html>
